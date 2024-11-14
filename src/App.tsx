@@ -1,13 +1,12 @@
-import './App.css'
-import StarComponent from './components/StarComponent'
+import "./App.css";
+import Ratings from "./components/Ratings";
 
 function App() {
-
   return (
     <div className="container">
-      <StarComponent />
+      <Ratings />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
